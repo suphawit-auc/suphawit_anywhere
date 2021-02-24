@@ -21,3 +21,7 @@ def detail(request, vocab_id):
 
 def addvocab(request):
     return render(request, 'vocab/formadd.html')
+
+def homepage(request):
+    return render(request, 'vocab/homepage.html')
+
